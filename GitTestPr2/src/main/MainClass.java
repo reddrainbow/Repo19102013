@@ -17,6 +17,7 @@ public class MainClass {
 			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
 			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
 			personen.add(curPerson);
+			System.out.println(curPerson);
 		}
 
 	}
