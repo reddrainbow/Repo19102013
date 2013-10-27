@@ -37,5 +37,15 @@ public class Person {
 		this.adresse = adresse;
 	}
 	
+	@Override
+	public String toString(){
+		StringBuffer buf = new StringBuffer();
+		buf.append("=================================");
+		buf.append("Vorname: "+vorname+"\n");
+		buf.append("Name: "+name+"\n");
+		buf.append("Alter: "+alter+"\n");
+		buf.append("Adresse: "+adresse);
+		return buf.toString();
+	}
 	
 }
