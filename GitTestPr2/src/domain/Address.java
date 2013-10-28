@@ -40,11 +40,11 @@ public class Address {
 	@Override
 	public String toString(){
 		StringBuffer buf = new StringBuffer();
-		buf.append("=================================");
-		buf.append("Strasse: "+strasse+"\n");
-		buf.append("Hausnummer: "+hausnummer+"\n");
-		buf.append("PLZ: "+plz+"\n");
-		buf.append("Ort: "+ort);
+		buf.append("\t=================================\n");
+		buf.append("\tStrasse: "+strasse+"\n");
+		buf.append("\tHausnummer: "+hausnummer+"\n");
+		buf.append("\tPLZ: "+plz+"\n");
+		buf.append("\tOrt: "+ort);
 		return buf.toString();
 	}
 	
