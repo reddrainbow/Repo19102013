@@ -37,4 +37,15 @@ public class Address {
 		this.ort = ort;
 	}
 	
+	@Override
+	public String toString(){
+		StringBuffer buf = new StringBuffer();
+		buf.append("=================================");
+		buf.append("Strasse: "+strasse+"\n");
+		buf.append("Hausnummer: "+hausnummer+"\n");
+		buf.append("PLZ: "+plz+"\n");
+		buf.append("Ort: "+ort);
+		return buf.toString();
+	}
+	
 }
