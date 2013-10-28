@@ -44,7 +44,7 @@ public class Person {
 		buf.append("Vorname: "+vorname+"\n");
 		buf.append("Name: "+name+"\n");
 		buf.append("Alter: "+alter+"\n");
-		buf.append("Adresse: "+adresse);
+		buf.append("Adresse: \n"+adresse);
 		return buf.toString();
 	}
 	
