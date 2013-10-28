@@ -19,7 +19,7 @@ public class MainClass {
 			curPerson = DomainHelper.createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
 			personen.add(curPerson);
 			System.out.println(curPerson);
-			System.out.println(curPerson);
+			
 		}
 
 	}
