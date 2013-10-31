@@ -20,6 +20,7 @@ public class MainClass {
 			System.out.println(curPerson);
 			System.out.println(curPerson);
 			System.out.println(curPerson);
+			System.out.println(curPerson);
 			
 		}
 
