@@ -11,6 +11,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		List<Person> personen = new ArrayList<Person>();
 		Address curAddress = null;
+		Address nextAddress = null;
 		Person curPerson = null;
 		Person nextPerson = null;
 		
