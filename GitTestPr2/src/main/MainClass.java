@@ -19,6 +19,7 @@ public class MainClass {
 			personen.add(curPerson);
 			System.out.println(curPerson);
 			System.out.println(curPerson);
+			System.out.println(curPerson);
 			
 		}
 
