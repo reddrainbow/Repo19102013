@@ -12,6 +12,7 @@ public class MainClass {
 		List<Person> personen = new ArrayList<Person>();
 		Address curAddress = null;
 		Person curPerson = null;
+		Person nextPerson = null;
 		
 		for(int i=0; i<5;i++){
 			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
