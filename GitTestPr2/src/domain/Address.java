@@ -7,6 +7,7 @@ public class Address {
 	private String ort;
 	public Address(String strasse, String hausnummer, String plz, String ort) {
 		super();
+		System.out.println(".... Creating Address Strasse:[ "+strasse+" ]; Hausnummer[ "+hausnummer+" ]; PLZ[ "+plz+" ]; Ort[ "+ort+" ]....");
 		this.strasse = strasse;
 		this.hausnummer = hausnummer;
 		this.plz = plz;
