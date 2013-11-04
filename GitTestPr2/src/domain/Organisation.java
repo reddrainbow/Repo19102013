@@ -8,6 +8,7 @@ public class Organisation {
 	}
 	private String name;
 	private String rechtsform;
+	private Address adresse;
 	public String getName() {
 		return name;
 	}
@@ -19,5 +20,11 @@ public class Organisation {
 	}
 	public void setRechtsform(String rechtsform) {
 		this.rechtsform = rechtsform;
+	}
+	public Address getAdresse() {
+		return adresse;
+	}
+	public void setAdresse(Address adresse) {
+		this.adresse = adresse;
 	}
 }
