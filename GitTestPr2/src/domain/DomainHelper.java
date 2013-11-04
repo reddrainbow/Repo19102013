@@ -8,4 +8,8 @@ public class DomainHelper {
 	public static Address createAddress(String pStrasse, String pHausnummer, String pPLZ, String pOrt){
 		return new Address(pStrasse, pHausnummer, pPLZ, pOrt);
 	} 
+	
+	public static Organisation createOtrganisation(String name, String rechtsform){
+		return new Organisation(name, rechtsform);
+	}
 }
