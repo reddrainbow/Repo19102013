@@ -20,6 +20,7 @@ public class MainClass {
 			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
 			personen.add(curPerson);
 
+
 		}
 		
 		printPersonen(personen);
