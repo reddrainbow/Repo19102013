@@ -48,6 +48,7 @@ public class Address {
 	}
 	
 	public boolean validate(String strasse, String hausnummer, String plz, String ort){
+		System.out.println("... validation....");
 		boolean valid = StringUtils.isNotEmpty(strasse);
 		valid &= StringUtils.isNotEmpty(hausnummer);
 		valid &= StringUtils.isNotEmpty(plz);
