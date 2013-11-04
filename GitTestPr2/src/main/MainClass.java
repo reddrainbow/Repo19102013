@@ -19,41 +19,10 @@ public class MainClass {
 			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
 			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
 			personen.add(curPerson);
-			System.out.println(curPerson); 
-			System.out.println(curPerson);
-			System.out.println(curPerson);
-			System.out.println(curPerson);
 
-			System.out.println(curPerson);
-			
-			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
-			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
-			System.out.println(curPerson);
-			System.out.println(curPerson);
-			
-			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
-			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
-			
-			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
-			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
-			
-			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
-			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
-
-			
 		}
 		
-		for(int i=0; i<5;i++){
-			curAddress = createAddress("Strasse"+i, ""+(i+1), "4444"+i, "Ort"+i);
-			curPerson = createPerson("Name"+i, "Vorname"+i,30+i, curAddress);
-			personen.add(curPerson);
-			System.out.println(curPerson);
-			System.out.println(curPerson);
-			System.out.println(curPerson);
-			System.out.println(curPerson);
-			
-		}
-
+		printPersonen(personen);
 	}
 	
 	public static Person createPerson(String pName, String pVorname, int pAlter, Address pAdresse){
@@ -63,5 +32,11 @@ public class MainClass {
 	public static Address createAddress(String pStrasse, String pHausnummer, String pPLZ, String pOrt){
 		return new Address(pStrasse, pHausnummer, pPLZ, pOrt);
 	}
-
+	
+	
+	public static void printPersonen(List<Person> personen){
+		for(Person p : personen){
+			System.out.println(p);
+		}
+	}
 }

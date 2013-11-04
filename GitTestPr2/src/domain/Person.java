@@ -7,6 +7,7 @@ public class Person {
 	private Address adresse;
 	public Person(String name, String vorname, int alter, Address adresse) {
 		super();
+		System.out.println(".... Creating Person Name:[ "+name+" ]; Vorname[ "+vorname+" ]; Alter[ "+alter+" ]; Adresse[ "+adresse+" ]....");
 		this.name = name;
 		this.vorname = vorname;
 		this.alter = alter;
